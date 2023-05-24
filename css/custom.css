@@ -1,0 +1,231 @@
+/* This is the external style sheet */
+body {
+	background-color: black;
+}
+/* Header element*/
+h1 {
+ text-align: center;
+ color: white;
+ font-weight: bold;
+ font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h3 {
+	text-aligh: center;
+	color: white;
+	background-color: rgb(0, 0, 0, 0.4);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	text-decoration: underline;
+	font-family: Helvetica, Arial, sans-serif;
+}
+	/*font for the date on a shedule page */
+#red {
+	color: red;
+	text-align: left;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: Arial, Helvetica, sans-serif;
+	background:transparent;
+}
+
+h5 {
+	text-aligh: center;
+	color: black;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+h6 {
+	text-aligh: left;
+	color: black;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+/* Paragraph element*/
+p {
+ text-align: center;
+ color: white;
+ font-weight: bold;
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 90%;
+ background-color: rgb(0, 0, 0, 0.4);
+}
+/* p new_1 is a style for countdown */
+p.new_1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+  color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* p new_2 is a style for a paragraph text under the pictures */
+p.new_2 {
+  text-align: left;
+  font-size: 90%;
+  margin-top: 5px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* p new_3 is a style for a schedule page*/
+p.new_3 {
+  text-align: left;
+  font-size: 100%;
+  margin-top: 0px;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  background: transparent;
+}
+p.new_4 {
+  text-align: center;
+  font-size: 150%;
+  margin-top: 0px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  background: transparent;
+}
+
+/* style the nav bar */
+#navbar {
+  overflow: hidden;
+  background-color: #6c757d;
+}
+
+/* style the links */
+#navbar a {
+  float: right;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #383838;
+  color: white;
+}
+
+/* page content */
+.content {
+  padding: 16px;
+}
+/* sticky class is added to the navbar with js when reaches position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* some top padding to the page content to prevent sudden quick movement (as the nav bar gets a new position at the top page (position fixed and top is 0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* end of navigation bar */
+
+/* link color in footer*/
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*end of link color*/
+
+/*text over the carousel pictures */
+.content1 {
+	/* Position the background text */
+  position: absolute; 
+  /* At the bottom. Use top:0 to append it to the top */
+  bottom: 0; 
+   /* Fallback color */
+  background: rgb(0, 0, 0);
+  /* Black background with 0.5 opacity */
+  background: rgba(0, 0, 0, 0.5); 
+  /* Grey text */
+  color: #f1f1f1; 
+  /* Full width */
+  width: 100%; 
+  /* Some padding */
+  padding: 20px; 
+}
+
+/* images changes width with the screen */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+img {
+	/* Gray border */
+  border: 1px solid #ddd; 
+  /* Rounded border */
+  border-radius: 4px;  
+  /* Some padding */
+  padding: 5px; 
+  /* Set a small width */
+  width: 150px; 
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.img1 {
+	 /* Gray border */
+  border: 1px solid #ddd;
+  /* Rounded border */
+  border-radius: 4px;  
+  /* Some padding */
+  padding: 5px; 
+  width: 60%;
+}
+.img2 {
+	/* Gray border */
+  border: 1px solid #ddd; 
+  /* Rounded border */
+  border-radius: 4px;  
+  /* Some padding */
+  padding: 0px; 
+  width: 100%;
+}
+/* Top left text on the picture - was not used*/
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}

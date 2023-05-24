@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<!-- title for a web page -->
+
+  <title>12 km Mourne Charity Walk</title>
+
+  <!-- Meta tag should define the character set to be UTF-8 -->
+
+  <meta charset="utf-8">
+
+  <!-- Viewpoint meta tag make the web site work on all devices and screen resolution, width follow the width of the screen, scale 1 is an initial zoom -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+   <!-- bootstrap5 from w3schools.com -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+  
+    <!-- Linking to the style sheet custom.css added after bootstrap5 css to replace it -->
+
+  <link rel="stylesheet" type="text/css" href="css\custom.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- favicon -->
+<link rel="icon" type="favicon/img" sizes="16x16" href="images/j16x16.png">
+<link rel="icon" type="favicon/img" sizes="300x300" href="images/j.png">
+
+<!-- style to the countdown -->
+<style>
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0px;
+  color:red;
+}
+.name {
+  font-size: 120%;
+  color: white;
+  background:transparent;
+}
+
+</style>
+</head>
+
+<body>
+<!-- name of the page - same for all 3 pages -->
+<div class="p-1 bg-secondary text-white text-center">
+ <h1>12 km Charity Walk</h1>
+ <p class="name">Discover Mourne Mountain beauty and support local rescue team!</p>
+ </div>
+ 
+<!-- navigation under the name - sticky, stay on the top while scrolling down -->
+<div id="navbar">
+<!-- <div class="navbar p-1"> -->
+ <a href="https://www.mournemrt.org/donate/" target="_blank" class="btn btn-danger">Donate</a>
+  <a href="web_map.html">Map</a>
+  <a href="web_schedule.html">Schedule</a>
+    <!-- web page of MMMR will open in a separate window -->
+  <a class="active" href="index.html">Home</a>
+  </div>
+
+<!-- Carousel - 8 pictures changing with a heading3 and paragraph description -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+	<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+	<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+	<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+	<button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+	<button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+  </div>
+
+  <!-- The carousel 8 photos added -->
+  
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/big_1.jpg" alt="Mourne Mountain" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Welcome to Mourne Mountains</h3>
+      </div>
+	  </div>
+
+    <div class="carousel-item">
+      <img src="images/big_2.jpg" alt="Bloody Bridge" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Start at Bloody Bridge car park</h3>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/big_3.jpg" alt="Crannoge Quarry" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Walk up to Crannoge Quarry</h3>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/big_4.jpg" alt="Bog of Slieve Donard" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Climb over Mourne Wall at Bog of Slieve Donard</h3> 
+      </div> 
+    </div>
+
+
+ <div class="carousel-item">
+      <img src="images/big_5.jpg" alt="Mournes sheep" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Let's support Mourne Mountain Rescue Team!</h3>      
+      </div> 
+    </div>
+
+ <div class="carousel-item">
+      <img src="images/big_7a.jpg" alt="Mournes Wall" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Walk under the Castles</h3>
+      </div>
+	  
+    </div>
+   <div class="carousel-item">
+      <img src="images/big_6.jpg" alt="Ben Crom Reservoir" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Enjoy Ben Crom Reservoir view</h3>
+      </div> 
+    </div>
+
+  
+	
+   <div class="carousel-item">
+      <img src="images/big_8.jpg" alt="Hares Gap" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Reaching Hares Gap walk down the hill</h3>
+      </div> 
+    </div>
+
+  <!-- Left and right controls/icons -->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+</div>
+</div>
+<!-- end of carousel -->
+<p id="countdown"></p>
+<script src="js\countdown.js"/></script>
+
+<div class="container mt-5">
+  <div class="row">
+  
+  <!-- first column in the text main area -->
+    <div class="col-sm-5">
+      <h4>Walk description</h4>
+	  <!-- left aligment for the first line is controled by custom.css -->
+      <p class="new_2"> The walk follows smugglers path over the mountain called Brandy Pad. It was used as a route evading coast guards and revenue 
+	  men in the nineteenth century. Smuggled goods were often transported on pack ponies via this high mountain route.
+The walk starts at Bloody Bridge car park and follows Bloody Bridge River up the hill. Path crossing Crannoge Quarry and leading to Bog of Slieve 
+Donard where you first cross 32 km long Mourne Wall over the cranes. The highest mountain in Northern Ireland Slieve Donard will be on the right 
+side and the wall is leading to the top of it. At this point the steepest part of the walk is done. <br> Following section of the walk leading just 
+under The Castles on the right side, a line of cliffs and rocky tors situated on lower Slieve Commedagh. Ben Crom reservoir is on the left side. 
+Finally you will cross the Mourne wall second time in Hares Gap with 
+Slieve Bernagh on the left site and walk down the valley along the river. Meelmore Lodge will be 
+in front of you and you have to cross the wall one more time. The walk should not be longer than 4 hours.  
+</p>
+      <p class="new_2"></p>
+    </div>
+	
+	<!-- second column in the text area -->
+    <div class="col-sm-4">
+      <h4><a href="https://www.mournemrt.org" target="_blank">Mourne Mountain Rescue Team</a></h4>
+      <p class="new_2">The Mourne Mountain Rescue Team is made up entirely of volunteers who live close to the Mournes and are based at 
+	  the foot of Slieve Donard in the coastal town of Newcastle.</p> 
+ <p class="new_2">The Team maintains an operational membership of around thirty-five people in order to provide this service. They are a registered 
+charity and totally dependent on donations from the public. It costs around £35,000 per year to maintain the service which must be 
+raised through Mourne Mountain Rescue Team efforts. Any help is vital for them to maintain the rescue service. 
+Please visit <strong><u><a href="https://www.mournemrt.org/donate/" target="_blank">donation</a></u></strong> page for more information. 
+<a href="https://www.mournemrt.org" target="_blank"><acronym title="Mourne Mountain Rescue Team"><i><small>MMRT</small></i></acronym></a></p>
+<br>
+      
+    </div>
+	
+	<!-- third column in the text area -->
+    <div class="col-sm-3">
+      <h4>Meeting Point</h4>    
+<!-- google map with bloody bridge carpark as a point to reach -->	  
+      <p class="new_2">Please find the direction to Bloody Bridge car park on Google Map</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2335.306481785942!2d-5.8738217!3d54.1746478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48613b30fc07a995%3A0x2fb738b9206972e7!2sBlood%20Bridge%20Car%20Park!5e0!3m2!1sen!2sus!4v1679103360157!5m2!1sen!2sus" width=100% height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <br>
+  <br>
+  <!-- two clickable buttons -->
+ <button onclick="window.location.href='map.jpg'"><i class="fa fa-download"></i> Print and take a walking map with you</button><br>
+ <br>
+ <!-- this one is for a fun - Olly is pointing to the parking area -->
+  <button onclick="window.location.href='cat.jpg'"><i class="fa fa-download"></i> How to find the location on the map </button><br>
+<br>
+
+   </div>
+  </div>
+</div>
+
+<!-- footer , line-height is 1.5 default by bootstrap 5, with using lh-1 it changed to 1-->
+
+<div class="container-fluid lh-1 p-1 bg-secondary text-white text-center">
+<!-- bold font (dt)-->
+  <p><dt><a href="index.html">Home / </a><a href="web_schedule.html">Schedule  /  </a><a href="web_map.html">Map  / </a><a href="https://www.mournemrt.org/donate/" target="_blank">Donate</a></dt></p>
+  <p><dt><a href="mailto:janarobbins.gis@gmail.com">Contact and Booking - email us</a></dt></p>
+  <!-- italic font and aligment to the centre --> 
+  <p class="fst-italic text-center bg-secondary text-white">©Jana.Robbins</p>
+</div>
+
+<!-- script for a sticky nav bar -->
+<script>
+window.onscroll = function() {myFunction()};
+ 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+
+</html>
