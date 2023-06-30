@@ -17,7 +17,7 @@ h2 {
 h3 {
 	text-aligh: center;
 	color: white;
-	background-color: rgb(0, 0, 0, 0.4);
+	/* background-color: rgb(0, 0, 0, 0.4); */
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ h4 {
 	color: white;
 	font-weight: bold;
 	font-size: 110%;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	font-family: Helvetica, Arial, sans-serif;
 }
 	/*font for the date on a shedule page */
