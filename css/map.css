@@ -37,12 +37,7 @@ h5 {
 	font-weight: bold;
 	font-family: Helvetica, Arial, sans-serif;
 }
-h6 {
-	text-aligh: left;
-	color: black;
-	font-weight: bold;
-	font-family: Helvetica, Arial, sans-serif;
-}
+
 /* Paragraph element*/
 p {
  text-align: center;
@@ -51,24 +46,6 @@ p {
  font-family: Helvetica, Arial, sans-serif;
  font-size: 90%;
  background-color: rgb(0, 0, 0, 0.4);
-}
-
-/* p new_3 is a style for a schedule page*/
-p.new_3 {
-  text-align: left;
-  font-size: 100%;
-  margin-top: 0px;
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  background: transparent;
-}
-p.new_4 {
-  text-align: center;
-  font-size: 150%;
-  margin-top: 0px;
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  background: transparent;
 }
 
 /* style the nav bar */
