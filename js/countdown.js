@@ -10,7 +10,7 @@ var x = setInterval(function() {
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown").innerHTML = days + "  days to start -  8th July 2023 ";
+  document.getElementById("countdown").innerHTML = days + "  days to start -  81st July 2023 ";
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
