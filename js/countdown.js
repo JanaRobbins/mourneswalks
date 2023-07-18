@@ -1,5 +1,5 @@
 // Set the date we're counting down to - 8. 7. 2023
-var countDownDate = new Date("Jul 8, 2023").getTime();
+var countDownDate = new Date("Oct 8, 2023").getTime();
 // Update the count down every day
 var x = setInterval(function() {
   // Get today's date 
