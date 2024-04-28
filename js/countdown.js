@@ -1,5 +1,5 @@
 // Set the date we're counting down to - 21. 1. 2024
-var countDownDate = new Date("Jan 21, 2024").getTime();
+var countDownDate = new Date("Jan 21, 2025").getTime();
 // Update the count down every day
 var x = setInterval(function() {
   // Get today's date 
