@@ -6,7 +6,7 @@
 
 ### Credits
 
-The website was created during the study of Geographic Informantion Systems in the School of Geography and Environmental Sciences in the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
+The website was created during the study of Geographic Informantion Systems in the School of Geography and Environmental Sciences at the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
 
 
 ### Licence
