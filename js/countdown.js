@@ -14,6 +14,6 @@ var x = setInterval(function() {
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Walk started on 21st of January 2026, email us or check our web page for another walk in the future";
+    document.getElementById("countdown").innerHTML = "Walk started on 21st of January 2026, email us or check our web page for another walk in the future";
   }
 }, 1000);
