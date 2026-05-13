@@ -178,6 +178,29 @@ h4 {
 
 </body>
 
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    map_f99e4fadd1e416a5d5ff85cdd9194b04.on('click', function(e) {
+
+        var lat = e.latlng.lat.toFixed(5);
+        var lng = e.latlng.lng.toFixed(5);
+
+        L.popup({maxWidth: 350})
+            .setLatLng(e.latlng)
+            .setContent(
+                '<div style="font-size:18px; font-weight:bold; width:260px;">' +
+                'Latitude: ' + lat + '<br>' +
+                'Longitude: ' + lng +
+                '</div>'
+            )
+            .openOn(map_f99e4fadd1e416a5d5ff85cdd9194b04);
+
+    });
+
+});
+</script>
 
 <script>
     
