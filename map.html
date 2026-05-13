@@ -139,10 +139,6 @@ h4 {
  <div class="folium-map" id="map_f99e4fadd1e416a5d5ff85cdd9194b04" ></div>
    
  </div>
- 
-  <!-- Interactive Folium map (iframe - adding full wall.html no ID -->
- <!-- <div class="ratio ratio-4x3"> <iframe src="walk.html" style="border:none;" allowfullscreen> </iframe></div> -->
-   
 
     <div class="col-sm-2">
 	<h4>Legend</h4>
@@ -181,94 +177,8 @@ h4 {
 </div>  
 
 </body>
-<script>
- L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_f99e4fadd1e416a5d5ff85cdd9194b04 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            </style>
-        
-    <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.css"/>
-    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.css"/>
-    
-                <style>
-                    #float_image_038fc3545f6ada54b8af16ebea9c82e9 {
-                        position: absolute;
-                        bottom: 6%;
-                        left: 1%;
-                          width: 60px;
-                        }
-                </style>
-            
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
-    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
-</head>
-<body>
-    
-    <!-- this is script from folium repsitory from walk.html -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
 
-    map_f99e4fadd1e416a5d5ff85cdd9194b04.on('click', function(e) {
 
-        var lat = e.latlng.lat.toFixed(5);
-        var lng = e.latlng.lng.toFixed(5);
-
-        L.popup({maxWidth: 350})
-            .setLatLng(e.latlng)
-            .setContent(
-                '<div style="font-size:18px; font-weight:bold; width:260px;">' +
-                'Latitude: ' + lat + '<br>' +
-                'Longitude: ' + lng +
-                '</div>'
-            )
-            .openOn(map_f99e4fadd1e416a5d5ff85cdd9194b04);
-    });
-
-});
-</script>
-    
-            <div class="folium-map" id="map_f99e4fadd1e416a5d5ff85cdd9194b04" ></div>
-        
-    
-            <img id="float_image_038fc3545f6ada54b8af16ebea9c82e9" alt="float_image"
-                 src="./images/j.png"
-                 style="z-index: 999999">
-            </img>
-            
-</body>
 <script>
     
     
