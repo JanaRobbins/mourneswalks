@@ -139,30 +139,7 @@ img {
 img:hover {
   box-shadow: 0 0 2px 1px rgba(199, 198, 205, 1);
 }
-/* Folium map responsive size */
 
-.folium-map {
-    width: 100%;
-    height: 700px;
-}
-
-/* Tablet */
-@media screen and (max-width: 992px) {
-
-    .folium-map {
-        height: 600px;
-    }
-
-}
-
-/* Mobile portrait */
-@media screen and (max-width: 576px) {
-
-    .folium-map {
-        height: 450px;
-    }
-
-}
 /* Fix Folium map height on mobile */
 
 #map_4736f1f2d186a0b40cb3547c174ff773 {
