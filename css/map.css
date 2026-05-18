@@ -187,3 +187,12 @@ img:hover {
     }
 
 }
+/* Hide minimap on mobile */
+
+@media screen and (max-width: 576px) {
+
+    .leaflet-control-minimap {
+        display: none !important;
+    }
+
+}
