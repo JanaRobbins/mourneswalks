@@ -1,4 +1,4 @@
-/* This is the external style sheet for the third page - map*/
+333/* This is the external style sheet for the third page - map*/
 body {
 	background-color: black;
 }
@@ -138,4 +138,28 @@ img {
 /* Add a hover effect (grey shadow) */
 img:hover {
   box-shadow: 0 0 2px 1px rgba(199, 198, 205, 1);
+}
+/* Folium map responsive size */
+
+.folium-map {
+    width: 100%;
+    height: 700px;
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+
+    .folium-map {
+        height: 600px;
+    }
+
+}
+
+/* Mobile portrait */
+@media screen and (max-width: 576px) {
+
+    .folium-map {
+        height: 450px;
+    }
+
 }
