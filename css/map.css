@@ -196,3 +196,15 @@ img:hover {
     }
 
 }
+/* Keep map and sidebar same height */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-10,
+.col-lg-2 {
+    display: flex;
+    flex-direction: column;
+}
