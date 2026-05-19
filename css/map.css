@@ -147,28 +147,12 @@ img:hover {
     height: 700px !important;
 }
 
-/* Tablet */
-@media screen and (max-width: 992px) {
 
-    #map_4736f1f2d186a0b40cb3547c174ff773 {
-        height: 600px !important;
-    }
-
-}
-
-/* Mobile portrait */
-@media screen and (max-width: 576px) {
-
-    #map_4736f1f2d186a0b40cb3547c174ff773 {
-        height: 500px !important;
-    }
-
-}
 /* Hide minimap on mobile */
 
 @media screen and (max-width: 576px) {
 
-    .leaflet-control-minimap {
+.leaflet-control-minimap {
         display: none !important;
     }
 
